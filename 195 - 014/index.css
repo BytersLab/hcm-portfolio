@@ -131,111 +131,33 @@ body {
       }
     }
   }
+}
 
-  .aboutme {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 8rem 0;
+/* Typescale */
 
-    .cards-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-
-      .card-left,
-      .card-right {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: calc(28.375rem * 0.75);
-        height: 30.9375rem;
-        padding: 5rem 4rem;
-      }
-
-      .card-left {
-        img {
-          height: 16.3125rem;
-          width: 16.3125rem;
-        }
-      }
-
-      .card-right {
-        text-align: justify;
-        gap: 32px;
-        h6 {
-          font-weight: 400;
-        }
-        background-color: var(--main);
-        color: var(--white);
-        border-radius: 1.25rem;
-      }
-    }
-  }
-
-  .newsletter {
-    text-align: center;
-    background-color: var(--main);
-    padding: 8rem;
-    color: var(--realwhite);
-
-    .text-container {
-      margin-bottom: 4rem;
-    }
-
-    .newsletter-form {
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
-      input {
-        padding: 1rem 2rem;
-        border-radius: 1rem;
-        border: none;
-        width: 80%;
-        max-width: 28.75rem;
-      }
-      button {
-        border: none;
-        background-color: var(--main);
-        cursor: pointer;
-
-        img {
-          height: 3rem;
-        }
-      }
-    }
-  }
-
-  /* Typescale */
-
-  h1 {
-    font-size: calc(5.61rem * 0.8);
-  }
-  h2 {
-    font-size: calc(4.209rem * 0.8);
-  }
-  h3 {
-    font-size: calc(3.157rem * 0.8);
-  }
-  h4 {
-    font-size: calc(2.369rem * 0.8);
-  }
-  h5 {
-    font-size: calc(1.777rem * 0.8);
-  }
-  h6 {
-    font-size: calc(1.333rem * 0.8);
-  }
-  p {
-    font-size: calc(1rem * 0.8);
-  }
-  small {
-    font-size: calc(0.75rem * 0.8);
-  }
+h1 {
+  font-size: calc(5.61rem * 0.8);
+}
+h2 {
+  font-size: calc(4.209rem * 0.8);
+}
+h3 {
+  font-size: calc(3.157rem * 0.8);
+}
+h4 {
+  font-size: calc(2.369rem * 0.8);
+}
+h5 {
+  font-size: calc(1.777rem * 0.8);
+}
+h6 {
+  font-size: calc(1.333rem * 0.8);
+}
+p {
+  font-size: calc(1rem * 0.8);
+}
+small {
+  font-size: calc(0.75rem * 0.8);
 }
 
 .container {
@@ -253,9 +175,6 @@ body {
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 1.1rem;
-  }
   body {
     h1 {
       font-size: 5.61rem;
@@ -282,38 +201,17 @@ body {
       font-size: 0.75rem;
     }
   }
-
-  body {
-    .aboutme {
-      .cards-container {
-        .card-left,
-        .card-right {
-          padding: 16rem 4rem;
-        }
-      }
-    }
-  }
   .container {
     width: 85%;
+  }
+  html {
+    font-size: 1.1rem;
   }
 }
 
 @media (min-width: 992px) {
   html {
     font-size: 1.125rem;
-  }
-  body {
-    .aboutme {
-      .cards-container {
-        margin-top: 8rem;
-        flex-direction: row;
-
-        .card-left,
-        .card-right {
-          width: 28.375rem;
-        }
-      }
-    }
   }
 }
 

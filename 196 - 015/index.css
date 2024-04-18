@@ -177,39 +177,6 @@ body {
     }
   }
 
-  .newsletter {
-    text-align: center;
-    background-color: var(--main);
-    padding: 8rem;
-    color: var(--realwhite);
-
-    .text-container {
-      margin-bottom: 4rem;
-    }
-
-    .newsletter-form {
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
-      input {
-        padding: 1rem 2rem;
-        border-radius: 1rem;
-        border: none;
-        width: 80%;
-        max-width: 28.75rem;
-      }
-      button {
-        border: none;
-        background-color: var(--main);
-        cursor: pointer;
-
-        img {
-          height: 3rem;
-        }
-      }
-    }
-  }
-
   /* Typescale */
 
   h1 {
