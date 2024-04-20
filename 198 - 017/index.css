@@ -80,22 +80,18 @@ body {
       h6 {
         font-weight: 200;
       }
-    }
-  }
+      img.svg {
+        height: 2rem;
 
-  nav,
-  footer {
-    img.svg {
-      height: 2rem;
-
-      &:hover {
-        transform: scale(1.1);
+        &:hover {
+          transform: scale(1.1);
+        }
       }
-    }
 
-    .right-side {
-      display: flex;
-      gap: 0.5rem;
+      .navbar-right {
+        display: flex;
+        gap: 0.5rem;
+      }
     }
   }
 
@@ -308,35 +304,6 @@ body {
         background-color: var(--main);
         img {
           height: 8rem;
-        }
-      }
-    }
-  }
-
-  footer {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 2rem;
-    background-color: var(--black);
-    color: var(--white);
-    gap: 2rem;
-
-    .footer-left {
-      display: flex;
-      align-items: center;
-      gap: 2rem;
-
-      .link-container {
-        display: flex;
-        gap: 1rem;
-        a {
-          color: var(--white);
-
-          &:hover {
-            transform: scale(1.1);
-            color: var(--accent);
-          }
         }
       }
     }

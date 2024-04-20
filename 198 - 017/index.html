@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="animations.css" />
     <title>Document</title>
   </head>
   <body>
@@ -16,7 +15,7 @@
         <div class="navbar-middle">
           <h6>DENTIST</h6>
         </div>
-        <div class="right-side">
+        <div class="navbar-right">
           <a
             href="https://instagram.com"
             target="_blank"
@@ -76,12 +75,8 @@
           <h3>Newsletter</h3>
           <h6>Subcribe to my newsletter to stay update</h6>
         </div>
-        <form
-          class="newsletter-form"
-          action="https://formspree.io/f/moqgyway"
-          method="POST"
-        >
-          <input type="email" placeholder="your@mail.com" name="email" />
+        <form class="newsletter-form" method="post" action="#">
+          <input type="email" placeholder="your@mail.com" />
           <button type="submit">
             <img
               src="./src/public/send-email-solid.svg"
@@ -139,29 +134,8 @@
       </section>
     </main>
     <footer>
-      <div class="footer-left">
-        <h5>Jonas</h5>
-        <div class="link-container">
-          <a href="#aboutme">About Me</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </div>
-      <div class="right-side">
-        <a
-          href="https://instagram.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            class="svg"
-            src="./src/public/instagram.svg"
-            alt="To Instagram"
-          />
-        </a>
-        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
-          <img class="svg" src="./src/public/tiktok.svg" alt="To TikTok" />
-        </a>
-      </div>
+      <div class="footer-left">Left</div>
+      <div class="footer-right">Recht</div>
     </footer>
   </body>
 </html>
