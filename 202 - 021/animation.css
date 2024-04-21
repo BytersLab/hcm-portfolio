@@ -1,0 +1,17 @@
+body {
+  .hero-section {
+    .background {
+      animation: bgscale 25s ease-in-out infinite;
+    }
+  }
+}
+
+@keyframes bgscale {
+  0% {
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+  }
+}
