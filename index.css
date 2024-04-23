@@ -172,6 +172,11 @@ body {
         img {
           height: 16.3125rem;
           width: 16.3125rem;
+          transition: all 0.4s;
+
+          &:hover {
+            transform: rotate(20deg);
+          }
         }
       }
 
@@ -258,6 +263,13 @@ body {
         "two" "one"
         "three" "four"
         "six" "five";
+
+      .skill-img {
+        transition: all 0.4s;
+        &:hover {
+          background-color: var(--second2);
+        }
+      }
 
       .skill-img,
       .skill-desc {
